@@ -1,0 +1,130 @@
+.filter-group-container {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-group-container {
+    width: 30%;
+    max-width: 300px;
+    min-width: 240px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+.searchinput-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #7e858e;
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .searchinput-container {
+    display: none;
+  }
+}
+
+.search-input {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  flex-grow: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: transparent;
+}
+
+.search-btn-container {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #475569;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 15px;
+  margin: 0px;
+}
+
+.search-icon {
+  color: #ffffff;
+  height: 15px;
+  width: 15px;
+}
+
+.line {
+  background-color: #475569;
+}
+
+.employ-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.employ-heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.employ-list-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.employ-items {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  padding-bottom: 18px;
+}
+
+.label {
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.salary-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.salary-heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.salary-list-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.salary-items {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  padding-bottom: 18px;
+}
+
+.label {
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 15px;
+}

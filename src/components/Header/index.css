@@ -1,0 +1,137 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: navbar;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1110px;
+  padding: 15px 0px 25px 0px;
+}
+
+.nav-mobile-logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-logo-container {
+    display: none;
+  }
+}
+
+.navbar-large-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1110px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-large-container {
+    display: none;
+  }
+}
+
+.logo {
+  width: 90px;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 125px;
+  }
+}
+
+.navbar-large-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-large-icons-container {
+    display: none;
+  }
+  .navbar-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.navbar-large-items {
+  font-family: Roboto;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 500;
+}
+
+.nav-item-large-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-large-btn {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-large-btn {
+    display: none;
+  }
+}
+
+.navbar-mobile-icons-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-mobile-btn {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item-mobile-link {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 24px;
+  margin-right: 18px;
+}
+
+@media screen and (min-width: 768px){
+  .nav-mobile-btn{
+    display: none;
+  }
+}
